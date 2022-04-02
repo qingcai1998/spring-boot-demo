@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+project:
+  name: learn-boot-demo
+  author: gongqc
+  date: 2022-4-2
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+project:
+  name: learn-boot-demo1
+  author: gongqc1
+  date: 2022-4-2

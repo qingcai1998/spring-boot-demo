@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "project",
+      "type": "cn.cmo.zhshzh.config.PropertiesConfig",
+      "sourceType": "cn.cmo.zhshzh.config.PropertiesConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "project.author",
+      "type": "java.lang.String",
+      "description": "作者",
+      "sourceType": "cn.cmo.zhshzh.config.PropertiesConfig"
+    },
+    {
+      "name": "project.date",
+      "type": "java.lang.String",
+      "description": "日期",
+      "sourceType": "cn.cmo.zhshzh.config.PropertiesConfig"
+    },
+    {
+      "name": "project.name",
+      "type": "java.lang.String",
+      "description": "名字",
+      "sourceType": "cn.cmo.zhshzh.config.PropertiesConfig"
+    }
+  ],
+  "hints": []
+}
